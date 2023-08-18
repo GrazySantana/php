@@ -1,7 +1,8 @@
 <?php
 
     echo                                "testando espaço em branco <br>";
-    echo "testando espaço <br>"      ;
+    echo "testando espaço <br>"      ;+-98
+   / 
 
     // O caracter &nbsp; adiciona um espaço em branco dentro da string
     echo "&#160;  &#160;              testando     espaço      em      branco    <br>";
