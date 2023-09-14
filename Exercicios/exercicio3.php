@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Exercicio 3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
+    
+</body>
+</html>
+
+
     <h1>Exercicio</h1>
 
-
- <!-- Código do float -->
- <?php
-
-$a = "testando pro exerc";
-$b = 22.9;
-
-if(is_float($a)) {
-  echo "É o resultado 1! <br>";
-}
-
-if(is_float($b)) {
-  echo "É o resultado 2! <br>";
-}
+    <!-- Código PHP para números tipo float -->
+    <?php
+            // Alimentar variável
+            $a = 1.12;
+            echo $a;
+            echo "<br>";
 
 // Código do string
 
@@ -30,9 +29,6 @@ if(is_string($str)) {
  echo "$str é um profi <br>";
 }
 
-if(is_string($num)) {
- echo "$num não deu bom <br>";
-}
 
 // Código do booleano
 
@@ -40,10 +36,6 @@ $a = true;
 
 if(is_bool($a)) {
   echo "É um bot  <br>";
-}
-
-if(is_bool(0)) {
-  echo "É um cara bom <br>";
 }
 
 // Código do array
