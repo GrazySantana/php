@@ -72,7 +72,21 @@
 
     <!-- Criar aqui seu programa PHP -->
     
-    
+    <?php
+        // Declarar a variavel
+        $a = 5;
+        
+        // condicional modo 1
+         if($a > 1) {
+            echo "True";
+         }
+
+        // condicional modo 2
+         if($a > 1) 
+        echo "True";
+
+
+    ?>
     <hr>
     
     <!-- ___________________________________________________________________ -->
@@ -105,7 +119,7 @@
             <li>Estoque mínimo: 14</li>
         </ol>
         <li>Exibir o produto em título tamanho h3</li>
-        <li>Comparar estoque atual com estoque nínimo</li>
+        <li>Comparar estoque atual com estoque mínimo</li>
         <li>Para: estoque INSUFICIENTE</li>
         <ol>
             <li>exibir mensagem: É necessário comprar.</li>
@@ -122,6 +136,20 @@
 
     <!-- Criar aqui seu programa PHP -->
 
+    <?php
+    $produto = 'Ultrabook ASUS';
+    $estoque = 0;
+    $estoqueminimo = 14;
+
+    echo "<h3> $produto </h3><br>";
+
+    if($estoque < $estoqueminimo) {
+        echo "<div class='repor'>É necessário repor o estoque</div>";
+        echo"mark> urgente </mark>";
+    } else {
+        echo "<div class='ok'>Não é necessário repor o estoque</div>";
+    }
+    ?>
     
     <hr>
 
